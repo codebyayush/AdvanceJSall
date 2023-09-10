@@ -1,6 +1,6 @@
 const post = [];
 
-function updateUsersLastActivity()
+function updateUsersLastActivity(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             const currentTime = new Date()
